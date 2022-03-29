@@ -12,8 +12,8 @@ class Repository(object):
     def Connect2DB(self):
         self.mydatabase = mysql.connector.connect(
                   host = "localhost",
-                  user = "root",
-                  password = "Jona6286",
+                  user = "INDSÆT EGET BRUGERNAVN",
+                  password = "INDSÆT EGEN KODE",
                   database = "skatteoversigt"
                   )
         self.mycursor = self.mydatabase.cursor()
